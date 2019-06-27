@@ -1,0 +1,38 @@
+
+
+
+
+
+
+// func handler1(c *gin.Context) {
+//   c.String(http.StatusOK, "homePage1")
+// }
+// func handler3(c *gin.Context) {
+//   name:=c.Query("name")
+//   age:=c.Query("age")
+//   c.JSON(http.StatusOK, gin.H{
+//     "name":name,
+//     "age":age,
+//   })
+// }
+// func handler4(c *gin.Context) {
+//   c.String(http.StatusOK, "homePage2")
+// }
+// func handler5(c *gin.Context) {
+//   name:=c.Param("name")
+//   age:=c.Param("age")
+//   c.JSON(http.StatusOK, gin.H{
+//     "name":name,
+//     "age":age,
+//   })
+// }
+// func handler6(c *gin.Context) {
+//   body:=c.Request.Body
+//   value,err:=ioutil.ReadAll(body)
+//   if err!=nil{
+//     fmt.Println(err.Error())
+//   }
+//   c.JSON(http.StatusOK, gin.H{
+//     "message":string(value),
+//   })
+// }
